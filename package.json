@@ -1,0 +1,15 @@
+{
+  "name": "brain_games",
+  "version": "1.0.0",
+  "description": "Проект Brain Games от Hexlet",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "--yes"
+  },
+  "author": "A.S.",
+  "license": "ISC"
+}
