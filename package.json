@@ -1,15 +1,31 @@
 {
-  "name": "brain_games",
+  "name": "brain_games_388",
   "version": "1.0.0",
   "description": "Проект Brain Games от Hexlet",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "babel-node": "babel-node",
+    "test": "npm test",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
   },
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/inquiring/project-lvl1-s388.git"
+    "url": "git+https://github.com/inquiring/project-lvl1-s388.git"
   },
   "author": "A.S.",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-stage-0": "*"
+  }
 }
