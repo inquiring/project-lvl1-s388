@@ -2,7 +2,7 @@
   "name": "brain_games_388",
   "version": "1.0.0",
   "description": "Проект Brain Games от Hexlet",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "babel-node": "babel-node",
     "test": "npm test",
