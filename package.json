@@ -1,8 +1,7 @@
 {
   "name": "brain_games_388",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Проект Brain Games от Hexlet",
-  "main": "dist/index.js",
   "scripts": {
     "babel-node": "babel-node",
     "test": "npm test",
@@ -30,5 +29,8 @@
   "homepage": "https://github.com/inquiring/project-lvl1-s388#readme",
   "bugs": {
     "url": "https://github.com/inquiring/project-lvl1-s388/issues"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
   }
 }
