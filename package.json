@@ -31,6 +31,10 @@
     "url": "https://github.com/inquiring/project-lvl1-s388/issues"
   },
   "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "readline-sync": "^1.4.9"
   }
 }
