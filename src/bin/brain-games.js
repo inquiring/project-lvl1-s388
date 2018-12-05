@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import index from '..';
+import askForANameAndSayHello from '..';
 
-index();
+askForANameAndSayHello();
