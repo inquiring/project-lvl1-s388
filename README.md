@@ -6,3 +6,5 @@
 [![Build Status](https://travis-ci.org/inquiring/project-lvl1-s388.svg?branch=master)](https://travis-ci.org/inquiring/project-lvl1-s388)
 
 [![asciicast](https://asciinema.org/a/gekGvtpR6vjaK3q9rvOTy66is.svg)](https://asciinema.org/a/gekGvtpR6vjaK3q9rvOTy66is)
+
+[![asciicast](https://asciinema.org/a/WvctuOnLjbQVu8U6wFokV9ATY.svg)](https://asciinema.org/a/WvctuOnLjbQVu8U6wFokV9ATY)
