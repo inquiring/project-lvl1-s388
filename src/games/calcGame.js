@@ -7,12 +7,13 @@ const operationsMap = {
   '-': (a, b) => a - b,
   '*': (a, b) => a * b,
 };
+
 const calcGame = () => {
   const getGameData = () => {
-    const firstOperand = getRandomNum(1, 100);
-    const secondOperand = getRandomNum(1, 100);
+    const firstOperand = getRandomNum(1, 10);
+    const secondOperand = getRandomNum(1, 10);
     const operations = Object.keys(operationsMap);
-    const operation = operations[getRandomNum(0, operations.length)];
+    const operation = operations[getRandomNum(0, operations.length - 1)];
     const question = `${firstOperand} ${operation} ${secondOperand}`;
     const answer = `${operationsMap[operation](firstOperand, secondOperand)}`;
     return cons(question, answer);

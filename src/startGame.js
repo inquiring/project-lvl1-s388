@@ -15,9 +15,9 @@ const startGame = ({ instruction, getGameData }) => {
       return;
     }
     const gameData = getGameData();
-    console.log(toString(gameData));
     const question = car(gameData);
     const correctAnswer = cdr(gameData);
+    console.log(toString(gameData));
     readlineSync.question(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
     if (correctAnswer === answer) {
