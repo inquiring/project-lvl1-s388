@@ -1,6 +1,6 @@
 {
   "name": "brain_games_388",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Проект Brain Games от Hexlet",
   "scripts": {
     "babel-node": "babel-node",
