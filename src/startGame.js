@@ -2,7 +2,7 @@ import readlineSync from 'readline-sync';
 import { car, cdr } from 'hexlet-pairs';
 
 const maxIterCount = 3;
-const startGame = ({ instruction, getGameData }) => {
+const startGame = (instruction, getGameData) => {
   console.log('Welcome to the Brain Games!');
   console.log(instruction);
   console.log('');
