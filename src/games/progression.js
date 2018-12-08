@@ -10,13 +10,16 @@ const addNumberToSequance = (sequance, maxSequanceLength, step) => {
   const nextElem = lastElem + step;
   return addNumberToSequance([...sequance, nextElem], maxSequanceLength, step);
 };
+
+const sequanceLength = 10;
+const firstElement = getRandomNum(1, 10);
+const step = getRandomNum(1, 10);
+const sequance = addNumberToSequance([firstElement], sequanceLength, step);
+const hiddenElementPosition = getRandomNum(0, sequance.length - 1);
+
 const getGameData = () => {
-  const firstElement = getRandomNum(1, 10);
-  const step = getRandomNum(1, 10);
-  const sequance = addNumberToSequance([firstElement], 10, step);
-  const elemIndex = getRandomNum(0, sequance.length - 1);
-  const question = sequance.map((elem, index) => (index === elemIndex ? '..' : elem)).join(' ');
-  const answer = `${sequance[elemIndex]}`;
+  const question = sequance.map((elem, index) => (index === hiddenElementPosition ? '..' : elem)).join(' ');
+  const answer = `${sequance[hiddenElementPosition]}`;
 
   return cons(question, answer);
 };
