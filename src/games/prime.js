@@ -13,7 +13,7 @@ const isPrime = (number) => {
     if (num / 2 <= divider) {
       return true;
     }
-    return iter(num, divider + 1);
+    return iter(number, divider + 1);
   };
   return iter(number, 2);
 };
