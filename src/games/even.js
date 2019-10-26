@@ -2,7 +2,7 @@ import { cons } from 'hexlet-pairs';
 import startGame from '../startGame';
 import getRandomNum from '../utils';
 
-const isEven = number => number % 2 === 0;
+const isEven = (number) => number % 2 === 0;
 
 const getGameData = () => {
   const question = getRandomNum(1, 100);
